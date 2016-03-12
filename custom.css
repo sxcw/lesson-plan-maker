@@ -1,0 +1,122 @@
+/*
+General
+*/
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #565656;
+  background-color: #fbfbfb;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img,embed,object,video{
+  max-width:100%;
+}
+
+h1,h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+h3,h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.red {
+	color: #ee5464;
+}
+
+.orange {
+	color: #f3a441;
+}
+
+.blue {
+	color: #109cc5;
+}
+
+.brown {
+	color: #68482d;
+}
+
+/*
+Header
+*/ 
+
+hr {
+	border-top: 0; 
+}
+
+hr:before {
+	
+	position: absolute;
+	content: '';
+	height: 1em;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-image: -webkit-linear-gradient(0deg, #ee5464 10%, #f3a441 10%, #f3a441 20%, #109cc5 20%, #109cc5 30%,#68482d 30%, #68482d 40%, #ee5464 40%, #ee5464 50%, #f3a441 50%, #f3a441 60%, #109cc5 60%, #109cc5 70%, #68482d 70%, #68482d 80%, #ee5464 80%, #ee5464 90%, #f3a441 90%);
+	background-image: -moz-linear-gradient(0deg, #ee5464 10%, #f3a441 10%, #f3a441 20%, #109cc5 20%, #109cc5 30%,#68482d 30%, #68482d 40%, #ee5464 40%, #ee5464 50%, #f3a441 50%, #f3a441 60%, #109cc5 60%, #109cc5 70%, #68482d 70%, #68482d 80%, #ee5464 80%, #ee5464 90%, #f3a441 90%);
+	background-image: linear-gradient(to right, #ee5464 10%, #f3a441 10%, #f3a441 20%, #109cc5 20%, #109cc5 30%,#68482d 30%, #68482d 40%, #ee5464 40%, #ee5464 50%, #f3a441 50%, #f3a441 60%, #109cc5 60%, #109cc5 70%, #68482d 70%, #68482d 80%, #ee5464 80%, #ee5464 90%, #f3a441 90%);
+}
+
+/*hr:before, hr:after {
+position: absolute;
+content: '';
+height: 1em;
+top: 0;
+left: 0;
+right: 0;
+}
+
+hr:before {
+background: linear-gradient(90deg, #1abc9c 15%, #2ecc71 15%, #2ecc71 12%, #3498db 12%, #3498db 32%, #9b59b6 32%, #9b59b6 35%, #34495e 35%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #e67e22 59%, #e67e22 63%, #e74c3c 63%, #e74c3c 82%, #ecf0f1 82%, #ecf0f1 92%, #95a5a6 92%);
+}*/
+header {
+	padding: 40px 20px;
+	/*border-top: 6px solid #d6d6d6;*/
+}
+
+header h1 {
+	font-size: 3.8em;
+}
+
+header h2 {
+	font-size: 2em;
+}
+
+header .title {
+	display: block;
+	text-transform: uppercase;
+}
+
+div.headerStory {
+	font-size: 1.4em;
+}
+
+div.headerStory ul {
+	color: #999999;
+	padding-bottom: 10px;
+}
