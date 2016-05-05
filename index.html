@@ -6,7 +6,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:300' rel='stylesheet' type='text/css'>
 	<link rel = "stylesheet" href="custom.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src = " https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+	<script async src = "script.js"></script>
 
 	<title>Lessen Plan Maker</title>
 </head>
@@ -16,22 +19,45 @@
 
 	<hr/>
 
-	<header class = "col-xs-12">
+	<header class = "row">
 
-		<h1 class = "title text-left col-md-6"><span class = "title red">Lesson Plans</span> <span class = "title orange">that help you </span> <span class = "title blue">teach children </span> <span class = "title brown"> effectly.</span></h1>
+		<h1 class = "title text-left col-xs-12 col-md-6"><span class = "title red">Lesson Plans</span> <span class = "title orange">that help you </span> <span class = "title blue">teach children </span> <span class = "title brown"> effectly.</span></h1>
 
-		<div class = "headerStory col-md-6">
-
-			<h2 class = "text-left title"> Chuwei, March 2016</h2>
+		<div class = "headerStory col-xs-12 col-md-6">
+			<h2 class = "text-left title"> Chuwei, a former preschool teacher</h2>
 			<p class = "text-left"> I have been teaching children for years and found out many of my students' parents have troubles teaching their children at home. </p>
 			<p> These are the things I have heard from the parents:</p>
-			<ul>
-				<li> "My kid cannot stay focused." </li>
-				<li> "He just wouldn't listen to me." </li>
-				<li> "This is the fourth time I teach XXX, but she still cannot get it." </li>
-				<li> "I don't know how to teach my kid. It's always a battle." </li>
-			</ul>			
-			<p> A good lesson plan would greatly reduce the time and effort on your part, and helps your children retain information much longer.  An effective lesson plan has five steps: Hook, Teach, Practice, Accessment, Closure.</p>
+			<blockquote>
+				 My kid cannot stay focused. He just wouldn't listen to me. This is the fourth time I teach XXX, but he still cannot get it. I don't know how to teach him. It's always a battle.
+			</blockquote>		
+			<p> Do you know a good lesson plan will greatly reduce the time and effort on your part, and your children will retain information much longer? </p>
+
+			<p><strong> An effective lesson plan has five steps: </strong></p> 
+			<!-- <canvas id = "headerChart" width = "320" height = "200"></canvas> -->
+
+			<div class = "stepsContainer">
+				<div class = "stepsInner">
+					<div class = "stepsLine"></div>
+					<ul class = "steps">
+						<li><a href = "#" class = "active"><span class = "roundTab">1</span></a></li>
+						<a href = "#"><li><span class = "roundTab">2</span></li></a>
+					</ul>
+				</div>
+
+				<div class = "stepsContent">
+					<div id = "step1">
+						<h3> Step 1: Hook</h3>
+						<p>This is the first step.</p>
+					</div>
+					<div id = "step2">
+						<h3> Step 2: Teach</h3>
+						<p>This is the second step.</p>
+					</div>
+				</div>
+			</div>
+
+
+
 		</div>
 
 	</header>
