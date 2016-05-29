@@ -5,42 +5,73 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:300' rel='stylesheet' type='text/css'>
-	<link rel = "stylesheet" href="custom.css"> 
+	<link rel="stylesheet" href="output.css"> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src = " https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
-	<script async src = "script.js"></script>
+	<script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+	<script async src="script.js"></script>
 
 	<title>Lessen Plan Maker</title>
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container">
 
 	<hr/>
 
-	<header class = "row">
+	<header class="row">
 
-		<h1 class = "title text-left col-xs-12 col-md-6"><span class = "title red">Lesson Plans</span> <span class = "title orange">that help you </span> <span class = "title blue">teach children </span> <span class = "title brown"> effectly.</span></h1>
+		<h1 class="title text-left col-xs-12 col-md-6"><span class = "title red">Lesson Plans</span> <span class = "title orange">that help you </span> <span class = "title blue">teach children </span> <span class = "title brown"> effectly.</span></h1>
 
-		<div class = "headerStory col-xs-12 col-md-6">
-			<h2 class = "text-left title"> Chuwei, a former preschool teacher</h2>
-			<p class = "text-left"> I have been teaching children for years and found out many of my students' parents have troubles teaching their children at home. </p>
+		<div class="headerStory col-xs-12 col-md-6">
+			<h2 class="text-left title"> I will help you teach your child better!</h2>
+			<p class="text-left"> I have been teaching children for years and found out many of my students' parents have troubles teaching their children at home. </p>
 			<p> These are the things I have heard from the parents:</p>
 			<blockquote>
 				 My kid cannot stay focused. He just wouldn't listen to me. This is the fourth time I teach XXX, but he still cannot get it. I don't know how to teach him. It's always a battle.
 			</blockquote>		
-			<p> Do you know a good lesson plan will greatly reduce the time and effort on your part, and your children will retain information much longer? </p>
+			<p> Do you know a good lesson plan will greatly reduce the time and effort on your part, and your children will <strong>retain information much longer</strong>? </p>
 
-			<p><strong> An effective lesson plan has five steps: </strong></p> 
+		</div>
+
+	</header>
+
+	<section class ="row" id="main"> 
+			<div class="triangle"><span class="triangle-down"></span></div>
+			<h2 class="text-center">An effective lesson plan has 5 steps: </h2> 
 			<!-- <canvas id = "headerChart" width = "320" height = "200"></canvas> -->
 
-			<div class = "stepsContainer">
-				<div class = "stepsInner">
+			<section class="steps row" id="hook">
+				<h3 class="col-xs-12 col-md-6 text-center">Hook<sub>1</sub></h3>
+				<div class="col-xs-12 col-md-6"> Hook is the first step. </div>
+			</section>
+
+			<section class="steps row" id="teach">
+				<h3 class="col-xs-12 col-md-6 text-center">Teach<sub>2</sub></h3>
+				<div class="col-xs-12 col-md-6"> Teach is the second step. </div>
+			</section>
+
+			<section class="steps row" id="practice">
+				<h3 class="col-xs-12 col-md-6 text-center">Practice<sub>3</sub></h3>
+				<div class="col-xs-12 col-md-6"> Practice is third second step. </div>
+			</section>
+
+			<section class="steps row" id="assessment">
+				<h3 class="col-xs-12 col-md-6 text-center">Assessment<sub>4</sub></h3>
+				<div class="col-xs-12 col-md-6"> Assssment is the fourth step. </div>
+			</section>
+
+			<section class="steps row" id="closure">
+				<h3 class="col-xs-12 col-md-6 text-center">Closure<sub>5</sub></h3>
+				<div class="col-xs-12 col-md-6"> Closure is the last step. </div>
+			</section>
+
+			<!-- <div class ="stepsContainer">
+				<div class ="stepsInner">
 					<div class = "stepsLine"></div>
 					<ul class = "steps">
-						<li><a href = "#" class = "active"><span class = "roundTab">1</span></a></li>
-						<a href = "#"><li><span class = "roundTab">2</span></li></a>
+						<li><a href="#" class="active"><span class = "roundTab">1</span></a></li>
+						<a href = "#"><li><span class="roundTab">2</span></li></a>
 					</ul>
 				</div>
 
@@ -55,12 +86,9 @@
 					</div>
 				</div>
 			</div>
+ -->
 
-
-
-		</div>
-
-	</header>
+	</section>
 
 </div>
 </body>
